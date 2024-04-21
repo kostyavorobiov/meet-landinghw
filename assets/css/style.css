@@ -117,7 +117,6 @@ body {
   color: rgb(135, 135, 157);
 }
 .main__image {
-  flex-wrap: wrap;
   /* height: 242px; */
   column-gap: 30px;
   row-gap: 24px;
@@ -263,6 +262,7 @@ body {
     padding-bottom: 66px;
    }
    .main__image {
+      flex-wrap: wrap;
     column-gap: 10px;
     margin: 0px 30px 48px 0px;
    }
