@@ -15,6 +15,7 @@ body {
 
 }
 .header {
+
   flex-direction: column;
   row-gap: 108px;
   margin-bottom: 120px;
@@ -29,7 +30,7 @@ body {
   /* height: 358px; */
   column-gap: 56px;
   margin-bottom: 110px;
-  flex-wrap: wrap;
+
 }
 .header__image-left {
   width: 394px;
@@ -213,9 +214,10 @@ body {
     background: #71C0D4;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px, max-width:){
     .header__bottom {
         column-gap: 0px;
+        flex-wrap: wrap;
     }
     .header__image-left, .header__image-right {
         max-width: 368px;
