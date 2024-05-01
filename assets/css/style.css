@@ -15,8 +15,8 @@ body {
 }
 .header {
   flex-direction: column;
-  row-gap: 108px;
-  margin-bottom: 120px;
+  row-gap: 61px;
+  margin-bottom: 110px;
 }
 .header__logo {
   width: 130px;
@@ -24,8 +24,8 @@ body {
   padding-top: 80px;
 }
 .header__bottom {
-  column-gap: 56px;
-  margin-bottom: 110px;
+  column-gap: 55px;
+  /* margin-bottom: 110px; */
   flex-wrap: wrap;
 }
 .header__image-left {
@@ -94,6 +94,7 @@ body {
   width: 1px;
   height: 84px;
   background: rgba(135, 135, 157, 0.25);
+  margin-bottom: 120px;
 }
 .number {
   position: absolute;
@@ -104,12 +105,14 @@ body {
   height: 56px;
   z-index: 2;
   background-color: #ffffff;
+
 }
 .number p {
   font-size: 16px;
-  font-weight: 500;
   line-height: 26px;
   color: rgb(135, 135, 157);
+
+  
 }
 .main__image {
   flex-wrap: wrap;
@@ -163,20 +166,27 @@ body {
   position: relative;
   height: 308px;
   background-color: #4d96a9;
+
+
 }
 .footer_bg {
   position: absolute;
   height: 308px;
-  max-width: 1440px;
-  opacity: 10.45%;
+  width: 1440px;
+  opacity: 10%;
   background-image: url(../desktop/image-footer.jpg);
   z-index: 1;
+  background-size: cover;
 }
+
 .footer h3 {
   max-width: 350px;
   font-size: 40px;
   line-height: 44px;
   color: #fafafa;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  z-index: 2;
 }
 .footer > p {
   max-width: 350px;
@@ -186,6 +196,7 @@ body {
   color: #fafafa;
   margin-left: 125px;
   margin-right: 92px;
+    z-index: 2;
 }
 .violet {
   background: #855fb1;
@@ -203,9 +214,11 @@ body {
   color: #d9b8ff;
 }
 
-.violet:hover {
-  background: #b18bdd;
-}
+
 .button__download:hover {
   background: #71c0d4;
 }
+.violet:hover {
+  background: #b18bdd;
+}
+
