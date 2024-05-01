@@ -52,7 +52,7 @@ body {
 }
 .header__bottom-center h1 {
   max-width: 445px;
-  padding-top: 55px;
+  margin-top: 55px;
 
   font-size: 64px;
   line-height: 64px;
@@ -201,7 +201,7 @@ body {
 .violet {
   background: #855fb1;
   border-radius: 29px;
-  width: 193px;
+  width: 139px;
   height: 58px;
   font-size: 16px;
   line-height: 26px;
