@@ -35,6 +35,8 @@ body {
   background-repeat: no-repeat;
   background-size: inherit;
   background-position: top 0 left -32px;
+  background-position: top 0 right 32px;
+
 }
 .header__image-right {
   width: 394px;
@@ -196,7 +198,7 @@ body {
   color: #fafafa;
   margin-left: 125px;
   margin-right: 92px;
-    z-index: 2;
+  z-index: 2;
 }
 .violet {
   background: #855fb1;
